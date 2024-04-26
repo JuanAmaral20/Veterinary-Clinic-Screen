@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("/img/Background_Correto.svg");
+    background-size: cover; 
+    
+}
+
+.cabecalho{
+    background-color: #0A3147;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 86px;
+}
+
+.lupa{
+    background-color: white;
+    width: 334px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 12px;
+    border-radius: 4px;
+}
+
+.lupa input{
+    height: 33px;
+    outline: none;
+    border: 0;
+    flex: 1;
+}
+
+.lupa button{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    gap:17px;
+    padding-right: 90px;
+}
+
+.notificacao{
+    position: absolute;
+    right: 162px;
+    top: 30px;
+}
+
+.logo{
+    padding-left: 25px;
+}
+
+.menu-lateral{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 84px;
+    gap: 25px;
+    background-color: #0A3147;
+    height: 1288px;
+    padding-top: 27px;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 84px 1fr;
+    background-image: url("/img/Background_Correto.svg");
+    background-size: cover;
+}
+
+.navegacao button{
+    background-color: #FFB702;
+    width: 269px;
+    height: 212px;
+    border-radius: 8px;
+    cursor: pointer;
+    padding-left: 53px;
+    padding-right: 53px;
+}
+
+a{
+    text-decoration: none;
+    width: 269px;
+    height: 212px;
+}
+
+.grid-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.navegacao img{
+    width: 106px;
+    height: 106px;
+}
+
+.navegacao p{
+    margin-top: 22px;
+    border: 1px solid #0A3147;
+    background-color: #0A3147;
+    border-radius: 10px;
+    width: 163px;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    color: #FFB702;
+}
+
+.navegacao{
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    padding-top: 66px;
+}
+
+
+.post{
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    padding-top: 90px;
+}
+
+
+.banner h4{
+    font-weight: 800;
+    color: #0A3147;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.texto{
+    color: #f1840f;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.publicado{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.relatorio{
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+}

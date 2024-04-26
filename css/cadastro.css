@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* background-image: url("/img/Background_Correto.svg"); */
+    background-size: cover; 
+    background-color: red;
+    
+}
+
+.cabecalho{
+    background-color: #0A3147;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 86px;
+}
+
+.lupa{
+    background-color: white;
+    width: 334px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 12px;
+    border-radius: 4px;
+}
+
+.lupa input{
+    height: 33px;
+    outline: none;
+    border: 0;
+    flex: 1;
+}
+
+.lupa button{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    gap:17px;
+    padding-right: 90px;
+}
+
+.notificacao{
+    position: absolute;
+    right: 162px;
+    top: 30px;
+}
+
+.logo{
+    padding-left: 25px;
+}
+
+.menu-lateral{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 84px;
+    gap: 25px;
+    background-color: #0A3147;
+    height: 1288px;
+    padding-top: 27px;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 84px 1fr;
+    background-image: url("/img/Background_Correto.svg");
+    background-size: cover;
+}
+
+.txt{
+    margin-top: 73px;
+    margin-left: 482px;
+}
+
+.txt1{
+    font-size: 15px;
+    font-weight: 800;
+    color: #0a3147;
+    font-family: "Montserrat", sans-serif;
+}
+
+.txt2{
+    font-size: 15px;
+    font-weight: 800;
+    color: #ffb702;
+    font-family: "Montserrat", sans-serif;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;  
+}
+
+.divpai{
+    display: flex;
+    margin-bottom: 13px;
+    align-items: center;
+    gap: 13px;
+}
+
+.reset-input{
+    border: 1px solid black;
+    outline: none;
+    border-radius: 10px;
+    height: 44px;
+}
+
+.divpai label{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #0A3147;
+    margin-bottom: 3px;
+}
+
+.tamanho-input{
+    width: 324px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 10px;
+}
+
+.tamanho-input-especie{
+    width: 251px;
+    height: 44px;
+    
+}
+
+.tamanho-input-raca{
+    width: 240px;
+}
+
+.tamanho-input-idade{
+    width:335px;
+    height:44px;
+}
+
+.tamanho-input-cor{
+    width:240px;
+    height:44px;
+}
+
+.tamanho-input-peso{
+    width:134px;
+    height:44px;
+}
+
+.tamanho-input-alergia{
+    width:437px;
+    height:44px;
+}
+
+
+
+.nome-animal{
+    display: flex;
+    flex-direction: column;
+}
+
+.selecionar-especie{
+    display: flex;
+    flex-direction: column;
+    width: 251px;
+    height: 44px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.nome-raca{
+    display: flex;
+    flex-direction: column;
+}
+
+.idade{
+    display: flex;
+    flex-direction: column;
+}
+
+.nome-cor{
+    display: flex;
+    flex-direction: column;
+}
+
+.peso{
+    display: flex;
+    flex-direction: column;
+}
+
+.selecionar-sexo{
+    display: flex;
+    flex-direction: column;
+    width: 189px;
+    height: 44px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.alergia{
+    display: flex;
+    flex-direction: column;
+}
+
+.tamanho-checkbox{
+    width: 22px;
+    height: 22px;    
+}
+
+.dados{
+    display: flex;
+    align-items: center;
+}
+
+.area{
+    display: flex;
+    flex-direction: column;
+}
+
+.area label{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #0A3147;
+    margin-bottom: 3px;
+}
+
+textarea{
+    width:588px;
+    height:159px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.two-button{
+    display: flex;
+    justify-content: end;
+    gap: 12px;
+}
+
+.two-button button{
+    width: 159px;
+    height: 45px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 41px;
+    color: white;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+}
+
+.dados{
+    gap: 11px;
+}
+
+
+.cancel{
+    background-color: #B10808;
+}
+
+.proximo{
+    background-color: #0A3147;
+}
